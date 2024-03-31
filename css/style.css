@@ -15,6 +15,19 @@ body{
     background: rgb(27, 27, 27);
 }
 
+a{
+    display: inline-block;
+    margin-left: 10vh;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: aqua;
+}
+
 .hear__content{
     display: flex;
     width: 100%;
@@ -32,18 +45,13 @@ body{
     font-weight: bold;
 }
 
-.header__link{
-    display: inline-block;
-    margin-left: 10vh;
-    color: #fff;
-    font-weight: 700;
-    font-size: large;
-    cursor: pointer;
+.hero{
+    padding: 5vh;
 }
 
 p{
-    padding: 5vh;
     text-align: left;
+    justify-content: center;
     color: #fff;
     font-size: larger;
     font-weight: 400;
